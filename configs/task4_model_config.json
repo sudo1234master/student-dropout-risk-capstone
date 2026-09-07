@@ -1,0 +1,124 @@
+{
+  "random_state": 42,
+  "cross_validation": {
+    "type": "StratifiedKFold",
+    "folds": 5,
+    "shuffle": true
+  },
+  "selection_metric": "dropout_f2",
+  "business_constraints": {
+    "target_dropout_recall": 0.75,
+    "minimum_dropout_precision": 0.5,
+    "top_risk_capacity_share": 0.3,
+    "target_top_risk_capture": 0.6
+  },
+  "best_model": "Random Forest",
+  "best_parameters": {
+    "model__max_features": "sqrt",
+    "model__min_samples_leaf": 2,
+    "selector__k": "all"
+  },
+  "dropout_alert_threshold": 0.23,
+  "threshold_selection_reason": "Maximised out-of-fold dropout F2 among thresholds meeting the Task 1 recall and precision targets.",
+  "candidate_parameter_grids": {
+    "Logistic Regression": {
+      "selector__k": [
+        30,
+        "all"
+      ],
+      "model__C": [
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "Decision Tree": {
+      "selector__k": [
+        30,
+        "all"
+      ],
+      "model__max_depth": [
+        4,
+        8,
+        null
+      ]
+    },
+    "Random Forest": {
+      "selector__k": [
+        30,
+        "all"
+      ],
+      "model__min_samples_leaf": [
+        2,
+        5
+      ],
+      "model__max_features": [
+        "sqrt",
+        0.5
+      ]
+    },
+    "Histogram Gradient Boosting": {
+      "selector__k": [
+        30,
+        "all"
+      ],
+      "model__learning_rate": [
+        0.05,
+        0.1
+      ],
+      "model__max_leaf_nodes": [
+        15,
+        31
+      ]
+    }
+  },
+  "model_input_columns": [
+    "Application mode",
+    "Application order",
+    "Course",
+    "Daytime/evening attendance",
+    "Previous qualification",
+    "Previous qualification (grade)",
+    "Mother's qualification",
+    "Father's qualification",
+    "Mother's occupation",
+    "Father's occupation",
+    "Admission grade",
+    "Debtor",
+    "Tuition fees up to date",
+    "Scholarship holder",
+    "Curricular units 1st sem (credited)",
+    "Curricular units 1st sem (enrolled)",
+    "Curricular units 1st sem (evaluations)",
+    "Curricular units 1st sem (approved)",
+    "Curricular units 1st sem (grade)",
+    "Curricular units 1st sem (without evaluations)",
+    "Unemployment rate",
+    "Inflation rate",
+    "GDP",
+    "first_sem_approval_rate",
+    "first_sem_evaluation_intensity",
+    "first_sem_no_evaluation_rate",
+    "first_sem_progress_index",
+    "academic_preparation_gap",
+    "first_sem_no_enrollment_flag",
+    "first_choice_flag",
+    "financial_risk_flag"
+  ],
+  "audit_only_exclusion": [
+    "Marital Status",
+    "Nationality",
+    "Displaced",
+    "Educational special needs",
+    "Gender",
+    "Age at enrollment",
+    "International",
+    "nontraditional_age_flag"
+  ],
+  "software": {
+    "python": "3.13.9",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "scikit_learn": "1.7.2"
+  }
+}

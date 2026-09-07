@@ -1,0 +1,18 @@
+{
+  "random_state": 42,
+  "audit_partition": "Held-out test set; locked model and threshold",
+  "audit_event": "Thresholded Dropout alert",
+  "minimum_group_size": 50,
+  "minimum_positive_cases": 25,
+  "four_fifths_parity_ratio_floor": 0.8,
+  "equalized_odds_review_gap": 0.1,
+  "reference_groups": {
+    "Gender": "Female",
+    "Age group": "Under 25",
+    "International status": "Domestic",
+    "Financial-risk proxy": "No immediate financial risk",
+    "Scholarship status": "No scholarship",
+    "Gender x financial risk": "Female | No immediate financial risk"
+  },
+  "race_handling": "Unavailable; no proxy substitution"
+}
