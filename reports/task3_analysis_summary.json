@@ -1,0 +1,284 @@
+{
+  "project": "Early Identification of University Students at Risk of Dropping Out",
+  "source": {
+    "dataset": "Predict Students' Dropout and Academic Success",
+    "doi": "10.24432/C5MC89",
+    "license": "CC BY 4.0"
+  },
+  "reproducibility": {
+    "random_state": 42,
+    "test_size": 0.2,
+    "python": "3.13.9",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "scikit_learn": "1.7.2"
+  },
+  "quality": {
+    "raw_rows": 4424,
+    "raw_columns": 37,
+    "machine_missing": 0,
+    "blank_strings": 0,
+    "exact_duplicates": 0,
+    "mother_occupation_code_99": 17,
+    "father_occupation_code_99": 19,
+    "invalid_binary_values": {
+      "Daytime/evening attendance": 0,
+      "Displaced": 0,
+      "Educational special needs": 0,
+      "Debtor": 0,
+      "Tuition fees up to date": 0,
+      "Gender": 0,
+      "Scholarship holder": 0,
+      "International": 0
+    },
+    "invalid_documented_ranges": {
+      "Application order": 0,
+      "Previous qualification (grade)": 0,
+      "Admission grade": 0,
+      "Curricular units 1st sem (grade)": 0,
+      "Curricular units 2nd sem (grade)": 0
+    },
+    "engineered_missing": 0
+  },
+  "data_scope": {
+    "rows": 4424,
+    "original_predictors": 36,
+    "second_semester_predictors_excluded": 6,
+    "original_predictors_available_at_prediction": 30,
+    "engineered_features_added": 9,
+    "features_before_audit_only_exclusion": 39,
+    "audit_only_features_excluded_from_default_matrix": 8,
+    "model_input_columns_before_encoding": 31,
+    "transformed_features_after_encoding": 125,
+    "selected_features": 30,
+    "train_rows": 3539,
+    "test_rows": 885
+  },
+  "eda_scope": "Training partition only; the held-out test partition was not used for exploratory or learned Task 3 decisions.",
+  "target_distribution": {
+    "Dropout": 0.3212771969482905,
+    "Enrolled": 0.17942921729302064,
+    "Graduate": 0.4992935857586889
+  },
+  "descriptive_dropout_rates": {
+    "Gender | Female": 0.25282854656222803,
+    "Gender | Male": 0.44802578565672846,
+    "Tuition fees up to date | Not up to date": 0.8687350835322196,
+    "Tuition fees up to date | Up to date": 0.24775641025641026,
+    "Debtor | No": 0.2819047619047619,
+    "Debtor | Yes": 0.6401028277634961,
+    "Scholarship holder | No": 0.38638941398865784,
+    "Scholarship holder | Yes": 0.12863534675615212
+  },
+  "feature_engineering": {
+    "features": [
+      "first_sem_approval_rate",
+      "first_sem_evaluation_intensity",
+      "first_sem_no_evaluation_rate",
+      "first_sem_progress_index",
+      "academic_preparation_gap",
+      "first_sem_no_enrollment_flag",
+      "first_choice_flag",
+      "financial_risk_flag",
+      "nontraditional_age_flag"
+    ],
+    "outlier_strategy": "Retain validated values; use RobustScaler; revisit only if model diagnostics show instability.",
+    "categorical_strategy": "Explicit one-hot encoding with infrequent-category grouping at fewer than 10 training records.",
+    "missing_strategy": "No observed machine missing values; defensive median/mode imputers retained in pipeline."
+  },
+  "feature_selection": {
+    "method": "Mutual information filter method on training data only",
+    "top_k": 30,
+    "top_10": [
+      {
+        "feature": "numeric__first_sem_progress_index",
+        "mutual_information": 0.274225167592264,
+        "rank": 1,
+        "selected_top_30": true
+      },
+      {
+        "feature": "numeric__first_sem_approval_rate",
+        "mutual_information": 0.2580176830148746,
+        "rank": 2,
+        "selected_top_30": true
+      },
+      {
+        "feature": "numeric__Curricular units 1st sem (approved)",
+        "mutual_information": 0.23676682203423316,
+        "rank": 3,
+        "selected_top_30": true
+      },
+      {
+        "feature": "numeric__Curricular units 1st sem (grade)",
+        "mutual_information": 0.18042847623137814,
+        "rank": 4,
+        "selected_top_30": true
+      },
+      {
+        "feature": "numeric__first_sem_evaluation_intensity",
+        "mutual_information": 0.11063833047949001,
+        "rank": 5,
+        "selected_top_30": true
+      },
+      {
+        "feature": "numeric__Curricular units 1st sem (evaluations)",
+        "mutual_information": 0.10531218916325136,
+        "rank": 6,
+        "selected_top_30": true
+      },
+      {
+        "feature": "categorical__Tuition fees up to date_0",
+        "mutual_information": 0.0926133009110908,
+        "rank": 7,
+        "selected_top_30": true
+      },
+      {
+        "feature": "categorical__Tuition fees up to date_1",
+        "mutual_information": 0.0926133009110908,
+        "rank": 8,
+        "selected_top_30": true
+      },
+      {
+        "feature": "categorical__financial_risk_flag_1",
+        "mutual_information": 0.0777764228209937,
+        "rank": 9,
+        "selected_top_30": true
+      },
+      {
+        "feature": "categorical__financial_risk_flag_0",
+        "mutual_information": 0.0777764228209937,
+        "rank": 10,
+        "selected_top_30": true
+      }
+    ]
+  },
+  "explainability": {
+    "method": "Model-based feature importance from a diagnostic Extra Trees classifier; not a final model comparison.",
+    "top_10": [
+      {
+        "feature": "numeric__first_sem_approval_rate",
+        "model_based_importance": 0.1108773144668951,
+        "rank": 1
+      },
+      {
+        "feature": "numeric__first_sem_progress_index",
+        "model_based_importance": 0.10794589028989679,
+        "rank": 2
+      },
+      {
+        "feature": "numeric__Curricular units 1st sem (grade)",
+        "model_based_importance": 0.05481977471860526,
+        "rank": 3
+      },
+      {
+        "feature": "numeric__Curricular units 1st sem (approved)",
+        "model_based_importance": 0.04112411709605956,
+        "rank": 4
+      },
+      {
+        "feature": "categorical__Tuition fees up to date_1",
+        "model_based_importance": 0.03852774526738361,
+        "rank": 5
+      },
+      {
+        "feature": "categorical__Tuition fees up to date_0",
+        "model_based_importance": 0.03564562792351873,
+        "rank": 6
+      },
+      {
+        "feature": "numeric__first_sem_evaluation_intensity",
+        "model_based_importance": 0.0353721262803004,
+        "rank": 7
+      },
+      {
+        "feature": "categorical__financial_risk_flag_1",
+        "model_based_importance": 0.02527234436628248,
+        "rank": 8
+      },
+      {
+        "feature": "categorical__Scholarship holder_1",
+        "model_based_importance": 0.02459949282728947,
+        "rank": 9
+      },
+      {
+        "feature": "categorical__Scholarship holder_0",
+        "model_based_importance": 0.022482215769007313,
+        "rank": 10
+      }
+    ]
+  },
+  "pca": {
+    "components_for_80pct": 61,
+    "components_for_90pct": 75,
+    "components_for_95pct": 84,
+    "pc1_explained_variance": 0.05194424487741151,
+    "pc2_explained_variance": 0.042500353309673104,
+    "first_two_cumulative": 0.09444459818708462,
+    "decision": "Retain PCA as a dimensionality-reduction comparison for Task 4; do not replace interpretable features by default."
+  },
+  "limitations": [
+    "One Portuguese institution limits external validity.",
+    "No student identifier is provided, so only exact-row duplicate checks are possible.",
+    "Outcome associations are descriptive and not causal effects of interventions.",
+    "Rare sensitive subgroups may not support stable fairness estimates.",
+    "First-semester variables support intervention after semester one, not at initial enrollment."
+  ],
+  "engineered_feature_summary": [
+    {
+      "engineered_feature": "first_sem_approval_rate",
+      "count": 3539.0,
+      "mean": 0.6968680333013658,
+      "std": 0.36651127135826195,
+      "min": 0.0,
+      "25%": 0.5,
+      "50%": 0.8333333333333334,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    {
+      "engineered_feature": "first_sem_evaluation_intensity",
+      "count": 3539.0,
+      "mean": 1.2892325570902936,
+      "std": 0.5733056682309733,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.2,
+      "75%": 1.6,
+      "max": 3.5
+    },
+    {
+      "engineered_feature": "first_sem_no_evaluation_rate",
+      "count": 3539.0,
+      "mean": 0.02284979123586595,
+      "std": 0.10467398734084034,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    },
+    {
+      "engineered_feature": "first_sem_progress_index",
+      "count": 3539.0,
+      "mean": 0.4477019759188701,
+      "std": 0.24788944855136463,
+      "min": 0.0,
+      "25%": 0.3,
+      "50%": 0.5333333333333333,
+      "75%": 0.6399999999285715,
+      "max": 0.94375
+    },
+    {
+      "engineered_feature": "academic_preparation_gap",
+      "count": 3539.0,
+      "mean": -5.80796835264199,
+      "std": 12.748820041970097,
+      "min": -70.0,
+      "25%": -11.699999999999989,
+      "50%": -5.200000000000003,
+      "75%": 0.0,
+      "max": 63.5
+    }
+  ]
+}
