@@ -1,0 +1,10 @@
+DATASET ATTRIBUTION
+
+Dataset: Predict Students' Dropout and Academic Success
+Repository: UCI Machine Learning Repository
+Creators: Valentim Realinho, Mónica Vieira Martins, Jorge Machado, and Luís Baptista
+DOI: 10.24432/C5MC89
+URL: https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The original data and metadata are included for reproducibility and are not claimed as original work.
