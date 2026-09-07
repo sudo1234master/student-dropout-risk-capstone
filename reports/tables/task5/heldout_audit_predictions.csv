@@ -1,0 +1,886 @@
+record_id,actual_dropout,dropout_alert,dropout_probability,Gender,Age group,International status,Financial-risk proxy,Scholarship status,Gender x financial risk
+3,True,True,0.9685526970376171,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+19,False,False,0.14622260421594208,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+22,False,False,0.11738927313636502,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+27,False,False,0.10658482229219966,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+31,False,False,0.17488114950482794,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+32,False,False,0.07484279299867942,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+38,True,True,0.6619747929343144,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+42,False,False,0.06809938385801133,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+53,False,False,0.14193780766768646,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+55,True,False,0.10788165534360471,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+57,True,True,0.8811231965905874,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+75,False,False,0.12804911286092793,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+76,True,True,0.4622301377288777,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+77,True,True,0.36902042524223644,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+78,False,False,0.12212066000481615,Male,Under 25,Domestic,Financial risk indicated,Scholarship holder,Male | Financial risk indicated
+85,False,False,0.06687109866450082,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+86,False,False,0.034739544621851366,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+90,False,True,0.6687478836945354,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+93,True,True,0.6694013474949496,Female,25 or older,International,No immediate financial risk,No scholarship,Female | No immediate financial risk
+109,True,False,0.08096193954348548,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+123,True,True,0.5214703443223596,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+134,True,False,0.2275407944675861,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+139,False,False,0.09358111076638198,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+145,False,False,0.038876432487051776,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+151,False,True,0.4625203223448697,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+157,False,False,0.09814972892302976,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+168,False,False,0.16274681034867486,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+169,False,False,0.10795062801433152,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+177,False,False,0.21257315941443392,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+183,True,True,0.6474381328018994,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+187,False,True,0.701604866303914,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+190,False,False,0.19807398042128802,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+192,False,True,0.5598023554297091,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+200,False,True,0.293309024866262,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+202,False,False,0.09644692064311665,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+206,False,True,0.7100743226246679,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+209,False,False,0.04793649209123414,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+215,False,False,0.1385176184680924,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+216,False,False,0.1459119797232129,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+217,False,False,0.06127318437936933,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+218,True,True,0.8227551485258897,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+227,False,False,0.13310129780888075,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+231,False,False,0.057661552310323355,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+234,False,False,0.18565647500079535,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+243,False,False,0.0634062996255198,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+245,False,False,0.039111133318237096,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+246,False,False,0.0884248730017953,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+249,False,False,0.15662561574879144,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+253,False,False,0.09330157486954245,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+257,False,False,0.08576059185642718,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+261,False,False,0.0951069488253674,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+274,False,False,0.1051110627035327,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+275,False,False,0.0698198884384373,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+279,False,False,0.02769585028474321,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+287,False,False,0.06911491229674362,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+290,False,False,0.05999274602029697,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+292,False,False,0.14958966954623287,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+296,False,False,0.05150345359666491,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+301,False,False,0.14373702933831992,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+309,False,False,0.1041742644562158,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+310,True,True,0.7031777794156758,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+324,False,True,0.3920622184345473,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+331,False,True,0.282645358067499,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+332,True,True,0.7115025322385415,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+334,False,False,0.041279688348331595,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+336,False,False,0.11502320733799945,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+352,False,False,0.10160062784907306,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+355,True,True,0.684616044683502,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+356,False,False,0.058224001360124795,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+357,False,False,0.17017994398547903,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+362,True,True,0.5318463647602165,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+365,False,False,0.20099382027231572,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+368,False,True,0.5315328681582674,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+371,False,False,0.11110655424950501,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+384,False,False,0.046027145657885474,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+388,False,True,0.48525233651739824,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+393,True,True,0.6087291865426476,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+409,False,False,0.07343043443342455,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+414,False,False,0.09320567778899402,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+415,False,False,0.06971392789056928,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+417,False,False,0.03710539828642682,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+419,False,False,0.04990650132037717,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+421,False,False,0.07974850349745635,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+422,False,False,0.13391836351695963,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+424,False,False,0.06403818454425358,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+430,False,False,0.1673801375309018,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+432,False,False,0.07166293212076366,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+434,True,True,0.6288821466275953,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+447,False,False,0.07861879616774849,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+451,False,False,0.03808667244548953,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+460,False,False,0.04807178918378415,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+464,False,True,0.40468475606578336,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+465,False,False,0.1474876259689012,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+476,False,False,0.0903907024014369,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+478,True,True,0.9699632384723176,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+483,True,True,0.8737642944678131,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+485,False,False,0.03550758128331982,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+486,False,False,0.12221247457056823,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+493,False,False,0.06609309429177869,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+500,False,False,0.05068481883776726,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+503,False,True,0.7721887425555717,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+511,False,True,0.4110163547842988,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+512,True,True,0.9891406956756462,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+518,True,False,0.15820732115898067,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+537,True,True,0.47832101588254233,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+541,False,False,0.08859349847064409,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+548,False,False,0.15707857894912156,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+552,True,True,0.9095820116520243,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+556,True,False,0.12237772062046673,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+563,True,True,0.7871152191678179,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+566,False,False,0.08423958368513708,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+567,True,True,0.8884125622647377,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+571,False,False,0.061564383735089476,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+592,False,True,0.3788133354278634,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+598,True,True,0.4826981104460846,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+599,False,False,0.11400838728292517,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+601,True,True,0.9838900741125809,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+612,False,False,0.13646862931716316,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+618,False,False,0.08016388284515716,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+619,False,False,0.056414206484587885,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+622,True,True,0.39554956176828054,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+630,False,False,0.1611471042431208,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+632,False,False,0.15053515374763085,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+633,False,False,0.07017059719617007,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+634,False,True,0.2687739371199609,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+638,False,True,0.41463235678029065,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+642,False,True,0.23643985717582083,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+652,False,True,0.5349134864783374,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+653,False,False,0.1362074516386338,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+655,False,False,0.21426991932544373,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+659,False,False,0.1868218013504913,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+663,False,False,0.0668989579097648,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+665,False,False,0.17889727909662387,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+668,False,False,0.05513023973184506,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+674,False,False,0.07899022627395952,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+678,False,True,0.2520226496922218,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+681,False,False,0.10197647244844435,Female,Under 25,International,No immediate financial risk,No scholarship,Female | No immediate financial risk
+697,False,False,0.10647145395112091,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+700,True,True,0.25026777114726045,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+702,True,True,0.4090876682537285,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+704,True,True,0.7330998374713613,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+708,False,False,0.042549149977793764,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+714,False,False,0.0545977849903545,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+724,True,True,0.9717889808420167,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+729,False,True,0.2881826609927681,Male,Under 25,International,No immediate financial risk,No scholarship,Male | No immediate financial risk
+731,True,True,0.6258922649559449,Male,Under 25,Domestic,Financial risk indicated,Scholarship holder,Male | Financial risk indicated
+732,False,False,0.08379969280478942,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+735,True,True,0.9052689378614197,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+738,True,True,0.6531866953704896,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+739,False,False,0.2071160382421775,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+743,True,False,0.1557915263724566,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+744,True,False,0.1696285333914519,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+745,False,False,0.14113722789671562,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+746,True,True,0.8718187967761448,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+748,False,False,0.1471467667608901,Male,25 or older,International,No immediate financial risk,No scholarship,Male | No immediate financial risk
+751,False,False,0.19593704063798079,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+760,False,False,0.1574610938460037,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+761,False,False,0.14544993706009324,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+771,False,False,0.07402888702394664,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+774,False,False,0.09128670342229814,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+777,False,False,0.07003087380380257,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+778,True,True,0.23597083787041792,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+779,False,False,0.14400416540844707,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+783,False,False,0.04844552707864593,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+792,True,True,0.9394623954507844,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+797,False,False,0.0924761555653693,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+800,False,False,0.16946882954797465,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+807,False,False,0.08421183647483733,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+808,False,True,0.3782603544339297,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+810,False,False,0.10486780332297685,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+816,False,False,0.12319461754501132,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+821,False,False,0.09716241172527026,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+831,True,False,0.1215011666459665,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+837,True,True,0.27675777900802856,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+838,False,True,0.2797019458780923,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+839,True,True,0.8976568324670734,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+840,False,False,0.035451879031139145,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+844,False,False,0.03822869190499958,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+850,False,False,0.12267532242555655,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+853,False,False,0.07812681819338586,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+863,True,True,0.6854523827359439,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+866,False,False,0.09070470139299017,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+870,False,True,0.35920987268745497,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+872,True,True,0.733928991588089,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+881,False,False,0.06165102502370202,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+891,False,False,0.05246224943203764,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+892,True,True,0.7914839432783602,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+894,True,True,0.9697059616576958,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+903,False,False,0.10847904682238635,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+906,False,False,0.057789405404838186,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+909,False,True,0.5415927594301257,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+918,True,True,0.9602069829914304,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+920,False,False,0.07990339611724326,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+922,False,False,0.04343078067539915,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+926,False,False,0.07272194976206571,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+940,True,True,0.8000235077658645,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+943,False,True,0.8484726038125819,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+951,False,False,0.09013333479261357,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+956,True,True,0.3011159889370323,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+962,False,False,0.12416273974278581,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+963,False,True,0.3162831746120367,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+967,True,True,0.9759451288829198,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+970,False,True,0.49819693585680586,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+973,True,True,0.9590728516536324,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+974,False,True,0.5690302824601697,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+977,False,False,0.14584642573260556,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+978,False,False,0.05617425899221249,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+986,False,False,0.0627522323740945,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+989,True,True,0.3344078979613096,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1002,True,True,0.9304034612509097,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1003,False,True,0.23040685068063307,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1006,False,False,0.1820909942459414,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1007,False,False,0.03325051755357662,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1010,False,False,0.06178709766150959,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1011,False,False,0.05550518850290602,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1013,False,False,0.08085792905952265,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1014,True,True,0.9459641976993246,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1018,False,False,0.09153674026875393,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1032,False,True,0.26694330081288586,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1039,False,True,0.23441291343810547,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1042,False,False,0.08229073000393679,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1045,False,True,0.2506659834461296,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1054,False,False,0.0515571129203519,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1069,False,False,0.07479289730453023,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1071,False,False,0.030456054229869273,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1076,False,False,0.07170997901605158,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1088,False,True,0.4092719437528311,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1096,True,True,0.9446705806573156,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1098,False,False,0.16671063727221244,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1101,True,False,0.17265613928855483,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1108,False,False,0.15778897305731757,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+1114,False,True,0.4872341281863917,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1120,False,False,0.06258610236334222,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1140,False,False,0.06280620835684009,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1142,False,False,0.0780995300398228,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1150,False,False,0.050075398654679956,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1151,False,False,0.09065386648689466,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1153,False,True,0.3764423842381455,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1159,False,False,0.11564748333039997,Female,Under 25,International,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1167,True,False,0.09788407676733231,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1172,False,False,0.06775677514527498,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1182,False,False,0.12513174474077526,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1188,True,True,0.6675473154287407,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1192,False,False,0.07126119660045858,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1200,False,False,0.07577541079342934,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1206,False,True,0.4750053352057135,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1207,False,True,0.391760771675001,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1209,True,True,0.9546963516409886,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1211,True,True,0.9199182129648497,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1213,False,False,0.0879718924424242,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1214,False,True,0.44578862606481656,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1225,False,False,0.012520336720632196,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1251,False,False,0.05769972194972342,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1257,False,False,0.03717550245157582,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1265,False,False,0.0341936022847958,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1267,False,False,0.10003456944801149,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1272,False,False,0.07711000516067297,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1277,False,True,0.2948136261062601,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1303,False,True,0.5466021687710475,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1315,False,False,0.07720109335966256,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1316,False,False,0.06869862487386992,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1322,False,False,0.1414634777945836,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1337,False,False,0.06020722385280141,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1339,True,False,0.17902099216402856,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1345,True,True,0.5885161627053197,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+1347,False,False,0.15945258946341453,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1348,False,False,0.07546860074052857,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1351,False,True,0.45391364625217134,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1360,True,True,0.9590158292350655,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1361,True,True,0.3439585675087781,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1366,True,True,0.9582162909003569,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1376,True,True,0.676378894324377,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1379,True,True,0.8814558189433277,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1384,False,False,0.024317054534015888,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1389,True,True,0.7712037103206693,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1396,False,False,0.12115976141318387,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1398,False,False,0.0941019153955529,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+1399,False,False,0.1686431272245758,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1401,False,True,0.2760149213201146,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1402,False,False,0.09416776249958304,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1406,True,True,0.7605207660571017,Male,Under 25,International,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1407,False,False,0.01789614939445587,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1409,True,True,0.6145008727413286,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1411,True,True,0.8779739352011884,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1413,False,True,0.33436225920467444,Male,Under 25,International,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1417,True,True,0.963295733082343,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1419,False,False,0.17335160214455267,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+1423,False,False,0.11487224075132024,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1426,False,True,0.2623559081146978,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1429,False,True,0.4489754955323796,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1432,True,True,0.31740385058622295,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1439,False,False,0.095856429845464,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1440,False,False,0.10283571774361683,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1443,False,False,0.074352823215207,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1455,False,False,0.09755449750143688,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1458,False,False,0.07601199764144907,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1464,True,True,0.4913405620453551,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1469,False,False,0.1438345748130618,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1472,False,True,0.30536821881320947,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1473,False,False,0.054433090061880865,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1503,False,False,0.05703993169581355,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1509,False,False,0.05604702374712189,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1512,False,True,0.4378165122312972,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1519,False,True,0.23383281249763976,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1524,True,False,0.1331477722587706,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1531,False,True,0.721143873136,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1534,False,True,0.4689417587045808,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1539,True,True,0.9228688767795021,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1546,False,True,0.3033792117796003,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1551,False,True,0.23545097937674128,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1559,True,True,0.44958096791926444,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1561,False,False,0.09880968121409826,Male,Under 25,International,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1562,False,True,0.23715367995501344,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1567,False,False,0.07281704961000493,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1568,False,True,0.24803349711102418,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1573,True,True,0.9675501505746564,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1578,False,True,0.338487263262665,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1583,True,True,0.7954057017940902,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1592,True,True,0.3168030687321309,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1600,True,True,0.7242556712554158,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1607,False,True,0.3802529242824301,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1614,True,True,0.9912421704769886,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1615,False,False,0.06442624601123977,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1619,True,False,0.09096659392587443,Female,Under 25,International,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1624,True,False,0.14442625341150644,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1638,False,False,0.028672818466846325,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1642,False,False,0.05152199725090219,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1649,True,False,0.0310003198584169,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1657,False,False,0.08591824003705407,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1658,False,False,0.12095217710146576,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1664,False,False,0.07313259413374563,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1670,False,True,0.5468512137882721,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+1676,True,True,0.6743846165928584,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1681,False,False,0.2226433440451012,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1684,True,True,0.34519958817394103,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1687,False,True,0.8307001321339429,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1689,False,True,0.6112768281906239,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1693,False,False,0.048328699419570714,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1707,True,True,0.39061912049279746,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1718,False,True,0.638266636197936,Male,25 or older,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1728,False,True,0.3278595742348652,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1729,True,True,0.9883292147984033,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1732,True,True,0.718521101686624,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1733,True,True,0.6627770820106561,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1736,False,False,0.13574954262848896,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1739,False,False,0.08291122965401275,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1749,True,True,0.9184977021798214,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1757,False,False,0.21164355591317718,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1762,True,True,0.23967429310620683,Female,Under 25,International,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1775,False,True,0.2905146388728113,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1777,False,False,0.0688963163476236,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1784,False,False,0.19454620711569634,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1786,False,True,0.2520506910261161,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1788,False,True,0.2569617008520138,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1790,False,False,0.10091682340834485,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1797,False,False,0.08008473008508754,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1801,True,True,0.2386409535859468,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1802,False,False,0.2290850291382353,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1803,False,False,0.1663149157548228,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1810,False,False,0.12744227877295067,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1812,False,False,0.08492092336143878,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1814,False,False,0.09694672257358482,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1815,True,True,0.7472577594604256,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1816,False,True,0.23511138771792167,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1818,False,False,0.05401399757050574,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1821,False,True,0.660206682538051,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1829,True,True,0.938798164985107,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1830,False,False,0.14246055474363778,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1837,False,True,0.247942918891384,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1838,False,True,0.4064620810479253,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1844,False,True,0.2448226796865077,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1847,True,False,0.0751117211339842,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1853,False,False,0.06709373418049423,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1854,False,False,0.09251266282682685,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1857,False,True,0.4757403045623906,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+1860,False,True,0.3132470359453726,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+1861,True,True,0.7835646756940577,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1863,True,True,0.9483647453923186,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1865,True,True,0.6191253979052771,Male,25 or older,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+1867,True,True,0.9417982641731898,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+1893,True,False,0.17301401399310293,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1894,False,False,0.1851112239734753,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1900,False,False,0.07496291449325626,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1902,False,True,0.2355376904914678,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1910,False,False,0.05169928074429245,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1920,False,True,0.3741672507409345,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1937,False,False,0.19567308300212213,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1938,False,False,0.049395804553987316,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1940,False,False,0.13297248523409805,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1948,False,False,0.19719378453470954,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1955,False,True,0.2700065018874788,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1957,False,False,0.157644996295075,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1959,True,False,0.2062711660106909,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1966,False,False,0.13811918969819054,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1969,False,True,0.5588579997627366,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+1970,False,False,0.12535265953460512,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1974,False,False,0.07652047545690295,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1975,False,False,0.10409841176859781,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1978,False,False,0.09522367882346931,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1982,False,False,0.09119814493065499,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1985,False,False,0.0406080341198299,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+1988,False,True,0.8271013834702797,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+1994,False,False,0.05951973353803063,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2001,True,True,0.5717776931394625,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2003,False,False,0.07141297181900576,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2019,False,False,0.1750948259778393,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2021,True,True,0.9275871527878599,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2025,False,True,0.5549057627804808,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2029,False,False,0.03208307709528975,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2036,False,True,0.5329575048214801,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2046,False,False,0.04513105147505857,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2047,True,True,0.9525379072195302,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2049,False,False,0.17581623644161737,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2050,False,False,0.08840277632083798,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2055,False,False,0.06552840403155757,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2063,False,False,0.040892775583470674,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2067,False,False,0.054634085980951735,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2070,True,True,0.8223183540898098,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2083,False,False,0.05304970467307838,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2092,False,False,0.05976745835210609,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2107,False,True,0.6032327324169229,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2108,False,False,0.052932692204119725,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2112,False,False,0.030620944283009627,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2114,False,False,0.15854377923666826,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2118,True,False,0.04742999348220525,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2122,False,True,0.335677150169283,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2127,True,False,0.051730122721869366,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2134,False,False,0.06354764511360714,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2135,False,False,0.07190907834199033,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2147,False,False,0.08678310207486319,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2158,False,False,0.07609833684077594,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2160,True,True,0.4331187807254013,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2165,False,False,0.09402438027720413,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2187,False,False,0.09177621394566325,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2190,True,True,0.42387531233728826,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2191,False,True,0.3158716387253732,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2192,True,True,0.8912634712696701,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2193,True,True,0.5168021832644993,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2197,False,True,0.4249440114720319,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2199,True,True,0.2883129834029778,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2204,True,True,0.5369823551838337,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2205,False,False,0.14099597384173285,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2207,True,True,0.9210568168178306,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2210,True,True,0.8901290271312782,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2212,False,False,0.034205019943034695,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2214,True,False,0.1605884682151958,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2221,False,False,0.09731526681145886,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2237,False,True,0.38849853207364254,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2245,True,True,0.7310767018090171,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2247,False,False,0.056050445709098715,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2248,False,True,0.4255747201689627,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2249,True,True,0.8295760568969105,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2254,True,True,0.9491082765377964,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2260,False,False,0.06312773728410552,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2266,False,True,0.39995641071150206,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2272,False,False,0.09862419773592312,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2283,True,True,0.5611177390048012,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2290,True,True,0.8973820699788918,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2292,False,False,0.11861390725487927,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2295,True,True,0.8764571363519609,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2297,True,True,0.7458567367284641,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2298,False,False,0.11101269344164862,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2311,False,False,0.10786846320526781,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2321,True,True,0.5654441041937112,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2323,True,True,0.6119438423870429,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2330,True,True,0.874004804531162,Male,25 or older,Domestic,Financial risk indicated,Scholarship holder,Male | Financial risk indicated
+2341,True,True,0.9880923772818017,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2348,False,False,0.1587910272425436,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2368,False,False,0.06826345768427257,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2369,False,True,0.23776252748813714,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2374,False,False,0.10784187955529935,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2383,True,False,0.21744996464844396,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2387,False,False,0.16076227959777567,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2397,True,True,0.8624857714964214,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2398,False,False,0.15923672240569553,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2399,False,False,0.06246267504874266,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2400,False,False,0.06963910953561352,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2402,False,False,0.10073749342230479,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2404,False,False,0.05721547065139126,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2406,False,True,0.40331242832485664,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2408,True,True,0.9113095494475842,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2414,False,True,0.3106014327513925,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2418,False,True,0.27973454181806573,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2419,False,False,0.21617539890542853,Male,Under 25,Domestic,Financial risk indicated,Scholarship holder,Male | Financial risk indicated
+2429,True,True,0.4574474600459176,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2432,False,False,0.15908997548099924,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2434,False,False,0.1437097363015133,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2440,True,True,0.7272181700200543,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2441,True,True,0.9384202695985994,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2443,True,True,0.8053115826765331,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2447,True,False,0.10699338666697289,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2454,False,False,0.07093492238123779,Male,Under 25,International,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2468,False,False,0.06620172727011955,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2469,True,True,0.4529291170065111,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2473,True,True,0.4172728064284078,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2480,True,True,0.31892769821908384,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2485,False,False,0.07709293240336924,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2497,False,False,0.1624898509850491,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2500,True,True,0.7468503195719023,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2505,True,True,0.9736498639845165,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2508,False,False,0.059522906369978326,Male,25 or older,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2524,True,True,0.932842265811777,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2538,False,False,0.040437048815627125,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2549,False,False,0.053367935306976616,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2551,False,False,0.10594163199110372,Female,25 or older,International,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2555,False,False,0.21668640202369677,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2582,True,True,0.9798954158330453,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2588,False,True,0.5387167893086288,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2594,True,False,0.10122630464712704,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2597,True,True,0.45511146637665434,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2601,True,False,0.07170649050643413,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2608,True,False,0.1325596490093859,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2611,False,False,0.08651031622547609,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2616,True,True,0.4780401473617752,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2617,True,False,0.15742134813444827,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2620,False,False,0.06590468658631654,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2640,False,False,0.11408935574941506,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2644,True,True,0.2304099729675439,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2654,True,True,0.8232565179399945,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2658,False,False,0.09895441694134326,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+2665,False,False,0.08722706114132299,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2677,True,True,0.8259636402150436,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2688,True,True,0.897535491631519,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2692,False,False,0.07377664121294347,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2701,True,True,0.6587207590682109,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+2711,False,False,0.15264151987922914,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2714,False,False,0.19406913891201252,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2717,False,True,0.7682883162212849,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2725,False,False,0.21547278189316002,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2726,False,True,0.5614459009534488,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2727,False,False,0.1490006760335018,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2737,False,False,0.06890891463980653,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2750,True,False,0.19174321440523892,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2753,True,True,0.8913171285200595,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2756,False,False,0.1462545695221665,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2761,True,False,0.13743175684284695,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2767,False,False,0.1331167703969521,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2769,False,False,0.0762377391984891,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2771,False,False,0.03556890337813401,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2776,False,False,0.026995878433545673,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2778,False,True,0.2697343099939353,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2782,True,True,0.9635268874368027,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2792,False,False,0.036542230176924366,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+2794,False,True,0.7551280032497619,Male,Under 25,Domestic,Financial risk indicated,Scholarship holder,Male | Financial risk indicated
+2801,False,False,0.07939315419597115,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2802,True,True,0.7340704106170463,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2805,False,False,0.031484999241000594,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2807,False,False,0.09944545304665281,Female,Under 25,International,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2812,True,True,0.8326647831442365,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2813,False,False,0.16727822555316532,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2815,False,True,0.5015094819403594,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2829,False,False,0.11258183013113784,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2835,False,False,0.08444213841211079,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2838,False,True,0.3623002610937148,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2840,False,False,0.09633519678382824,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2842,False,False,0.10367441954531148,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2844,True,True,0.9602259682121438,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2847,True,True,0.6772993303205838,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2849,True,True,0.2558026452283054,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2852,False,False,0.1548909767919958,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2856,True,False,0.13534524652090302,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2860,False,True,0.2580121495265043,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2862,False,False,0.12063011575748421,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2869,False,False,0.21912511247209565,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2871,False,True,0.25662192041169923,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2874,False,True,0.23387462999898598,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2880,True,True,0.5149487101085828,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2881,False,False,0.09315052551132284,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2905,True,True,0.5077642210701286,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2910,True,True,0.6788217427043851,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+2925,False,False,0.0158896649409833,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2928,False,False,0.17445517972472313,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2939,False,True,0.41698467000270495,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2940,True,True,0.9102630369877316,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2943,False,False,0.05979786838307692,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2953,False,False,0.14791532543963878,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2966,False,False,0.15382754632689574,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+2969,False,True,0.40396059504964604,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2974,False,False,0.18378848554947655,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2979,False,False,0.042719598921513224,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2990,False,True,0.4068032422504307,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+2991,False,False,0.14857080435001385,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+2997,False,False,0.17381745714575703,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3003,True,False,0.1078470022352279,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3004,True,False,0.03815678358938947,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3016,False,False,0.035464177073513355,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3018,False,False,0.05828173853102858,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3030,False,False,0.18755755249316736,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3035,False,False,0.06666062467401752,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3046,False,False,0.11659896792442294,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3060,False,False,0.01309100994299227,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3071,False,False,0.06680136440585588,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+3077,True,True,0.4782419949686635,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3081,False,False,0.06428202183510234,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3083,False,False,0.07800398293944644,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3090,True,True,0.922467903884404,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3095,True,True,0.6771592598571892,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3097,False,False,0.07211455889598142,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3098,True,True,0.5611914352492339,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3099,False,False,0.09049560794105453,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3100,True,True,0.5357221530117954,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3101,False,False,0.0618931170911149,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3104,True,True,0.7770690612484178,Male,25 or older,International,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3105,False,False,0.08122644694576511,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3106,True,False,0.10382987616569593,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3124,False,False,0.023886925166471295,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3129,False,False,0.2017808115653411,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3131,False,False,0.11458450865236629,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3135,False,False,0.09707950404427268,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3137,False,False,0.14457978100442304,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3145,False,False,0.13150123019549173,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3151,False,False,0.20926581518411375,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3159,False,False,0.11234652719570787,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3173,True,True,0.4253525369779847,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3175,False,False,0.09577188639995456,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3179,False,False,0.0413263209188366,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3182,True,True,0.4570066173172864,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3184,False,True,0.2808228178266504,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3191,True,True,0.9695764035466206,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3195,False,True,0.5119318814215144,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3210,False,False,0.18570689979242955,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3212,False,True,0.4167288252196437,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3213,False,False,0.11062612489377095,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+3221,True,True,0.7577605487127905,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3223,False,False,0.1433290820606181,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3227,False,False,0.1470898374314305,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3231,False,False,0.0734518801519094,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3237,False,False,0.051163787430697376,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3238,False,True,0.3001927648322421,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3239,False,False,0.11026220427783005,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3241,False,True,0.312190759475224,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3242,False,False,0.20612732555131713,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3250,False,False,0.08862639339760688,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3260,False,False,0.04045410549874601,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3264,False,False,0.18667956388565018,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3272,False,False,0.055820494277568536,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3276,False,True,0.3947335273072521,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3277,True,True,0.23984662612227264,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3281,False,False,0.13427196494453264,Female,Under 25,International,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3282,True,True,0.6913033964891911,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3285,False,True,0.5252197574957934,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3286,False,False,0.06705011320724098,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3288,True,True,0.8582001961637701,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3291,True,True,0.4461039016707826,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3293,True,True,0.5985836554765935,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3298,True,True,0.8069114863770314,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3300,True,True,0.959380203737558,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3302,False,False,0.025390625626356682,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3304,False,False,0.09330169627459396,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3305,False,False,0.05576752589930049,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3309,False,False,0.014696565811188838,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3313,False,True,0.3506065867690499,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3315,True,True,0.9115615081282904,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3322,True,True,0.9383063950292029,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3327,False,False,0.1243260038017092,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3339,True,True,0.461343533534987,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3350,True,True,0.6242753151695416,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3351,False,False,0.09015832518218052,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3352,True,True,0.5377742241199486,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3362,False,False,0.07588588631627269,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3364,True,True,0.9189682553667649,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3380,False,False,0.07022420068314453,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3381,True,True,0.5407425624667115,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3393,False,False,0.08252432036128333,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3394,False,False,0.09008312063692035,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3395,False,False,0.124562333014766,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3403,False,False,0.22575876544226478,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3409,True,True,0.883743322321533,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3414,True,True,0.9629650022333728,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3416,False,False,0.1448764295958668,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3424,True,False,0.0815137798475872,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3440,True,True,0.6117728429083793,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3443,False,False,0.14818277761918958,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3445,True,True,0.6177742198130042,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3448,False,False,0.20447297382080168,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3453,False,False,0.11475761802955543,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3458,False,False,0.07129193726470666,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3459,False,False,0.1771789925171047,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3463,True,True,0.5882296558758388,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3472,False,True,0.5503033905783766,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3476,False,False,0.0382740771049958,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3477,False,False,0.13319528121125182,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+3481,False,False,0.013021073168158133,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+3483,True,True,0.7419919121931677,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3488,True,True,0.9273923159635082,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3502,True,False,0.14131722068259792,Male,25 or older,Domestic,Financial risk indicated,Scholarship holder,Male | Financial risk indicated
+3508,False,False,0.1098319805624704,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3519,True,True,0.30052102213693166,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3524,False,True,0.5465340746066591,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3529,True,False,0.19150135515999042,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3554,True,False,0.20767941125965195,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3558,True,True,0.9396654773110718,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3562,False,False,0.06231776529488491,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3565,True,True,0.8540997396230914,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3571,False,False,0.1258067792798643,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3573,True,True,0.4922943718830255,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3578,True,True,0.6355797762085891,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3581,False,False,0.1548752036382993,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3582,False,False,0.13737434540781557,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3588,False,False,0.09567487262947226,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3589,False,False,0.10747422462182442,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+3590,True,True,0.9331182428657325,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3591,False,True,0.8389991896690889,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3593,True,True,0.34121824408205037,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3599,False,False,0.18158280719276598,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3606,False,False,0.2233190776576498,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3613,True,True,0.27778876809296926,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3621,True,True,0.31907672949116556,Female,Under 25,International,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3622,False,False,0.04662866839864894,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3626,False,True,0.5215636500729905,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3628,False,False,0.1761069411562263,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3634,False,False,0.15455807776276034,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3638,False,True,0.3842919548321099,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3641,False,False,0.1559067580499145,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3642,True,True,0.970633671441294,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3643,False,False,0.09723196725839932,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3645,False,False,0.044994101580944496,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3646,False,False,0.09406834191390111,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3647,False,True,0.6218217896667428,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3648,True,True,0.9748004999630427,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3650,True,False,0.18586811267748685,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3654,False,False,0.061742930566827746,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3668,True,True,0.9818250787456682,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3676,False,False,0.07100591315203209,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3677,False,True,0.7507609993134564,Female,Under 25,International,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3679,False,False,0.047856977150914276,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3685,True,True,0.5970754568474234,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3686,True,False,0.08243135895227323,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3698,False,True,0.23945466456394826,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3700,True,True,0.7908785915772275,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3715,True,True,0.9366164356346884,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3720,True,False,0.07458021232718706,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3722,True,True,0.9616912877474086,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3724,True,True,0.5024426802490393,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3731,False,False,0.10632645030204621,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3735,True,True,0.37947271007722055,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3737,False,False,0.16569550400354346,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+3739,False,False,0.19718669910909617,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3740,True,True,0.7331740269957486,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3741,True,False,0.15518040729770533,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3754,False,False,0.059848795028631635,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3763,False,False,0.09241956873935593,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3765,False,False,0.08608656169903336,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3779,False,True,0.28768217237284205,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3784,False,False,0.10277939201363354,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3785,True,True,0.5914812312133318,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3787,True,False,0.22562395967723148,Male,Under 25,International,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3797,False,False,0.05903408657552487,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3798,True,True,0.7604164487061188,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3800,True,True,0.8676903888042428,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3812,True,True,0.9142051642351112,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3815,False,False,0.13853472029880143,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3825,False,True,0.8015203367497133,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3829,True,True,0.6886910768007873,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3832,False,False,0.1248427900764274,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3835,False,False,0.18989982461857546,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+3844,True,True,0.6207502556370049,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3848,True,True,0.9203322640856603,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3849,True,True,0.7823826998603142,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+3859,True,True,0.7659180873226044,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3861,True,True,0.7566841397103872,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3867,True,True,0.844650859611626,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3876,True,True,0.8234044438975032,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3883,True,True,0.8976920785006619,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3886,False,False,0.179519944705836,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+3892,False,False,0.0657308151732346,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3896,False,False,0.007210449848545026,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+3897,False,True,0.6255103234644133,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+3898,False,False,0.05555334989981729,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+3903,False,False,0.16304647713416628,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3907,False,False,0.023246493708464055,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3909,False,False,0.11929473960747254,Female,25 or older,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+3910,True,True,0.9269077817620868,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3918,False,False,0.054033488286687345,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3919,False,True,0.26785129024027593,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3920,False,False,0.07553509140044921,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3922,False,False,0.055568395042008376,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3927,False,False,0.06037143328188834,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3928,True,True,0.5737451210004411,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+3930,False,False,0.14813192499863065,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3931,False,False,0.1054391381417935,Female,Under 25,International,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3935,True,True,0.7338640006255684,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3936,False,True,0.46677070382094626,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3938,False,True,0.40664977391343965,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3943,False,False,0.0987330754191245,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3946,False,False,0.05425142540623446,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3948,True,True,0.9324097603505543,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3955,True,True,0.3429914614264296,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3971,False,False,0.08143497862286225,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3972,False,False,0.0678900358658972,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3973,False,True,0.2627185787212111,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3979,False,False,0.07742381236875055,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3984,False,False,0.062073265219376075,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+3994,False,True,0.42988050461181143,Female,Under 25,International,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+3996,True,True,0.5477749309917521,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+3998,False,False,0.10094274765537038,Female,25 or older,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4000,True,False,0.1119922217036538,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4004,False,False,0.024357971722996738,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+4007,False,False,0.06241070795813172,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+4011,True,True,0.9416868742163168,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4013,True,True,0.9353770981711521,Female,25 or older,International,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4014,False,False,0.104127856236691,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4016,True,True,0.5362699723083202,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4019,False,False,0.08900767138258378,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4021,True,True,0.4377814062994252,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4023,False,False,0.1545185709364822,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4027,False,False,0.10985436820317944,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4034,True,True,0.3660462630775303,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4035,True,True,0.9664298047841767,Male,25 or older,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4038,False,True,0.7012449529041606,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4042,False,False,0.08421924671617446,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4045,False,False,0.17070590403537816,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+4051,True,True,0.9041013843491142,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4056,True,True,0.42588617419347763,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4062,False,False,0.14172270570358583,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4063,False,False,0.0674517604811741,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4078,True,True,0.6031207793026171,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4082,False,True,0.5432470823351898,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4083,False,True,0.5107892332909671,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4086,True,True,0.5328084777338283,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4094,False,False,0.05389016351672982,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4113,False,False,0.11051046005302081,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4120,False,True,0.32199916191759687,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4127,False,True,0.30029403248693476,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4129,False,True,0.3614921768728367,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4130,False,False,0.03453888940789846,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4132,False,False,0.07013120644502786,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4136,False,False,0.10321264218107203,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4150,False,False,0.15606285789809035,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4151,False,False,0.18282538557273814,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4167,False,False,0.1856364003190703,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4170,True,True,0.7718318609914999,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4171,False,True,0.4618210784597694,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4174,False,False,0.03352358480825831,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4176,False,False,0.06952696751255102,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4178,False,True,0.27731759010176193,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4179,False,False,0.02878497419920784,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4181,False,True,0.4698312253737968,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4182,True,True,0.9744610843333201,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4185,False,False,0.2008120831210247,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4190,False,False,0.21343698834588665,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4195,True,True,0.8966669709890076,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4196,False,False,0.06922225087288222,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4205,True,False,0.22714829303269174,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4206,False,False,0.042537747244614954,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4209,True,True,0.6541796662359102,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4210,False,False,0.09882862844224694,Male,Under 25,International,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4214,False,True,0.4696154709969266,Female,Under 25,Domestic,Financial risk indicated,Scholarship holder,Female | Financial risk indicated
+4218,False,False,0.10656167803463208,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4221,True,True,0.578687970248616,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4231,False,False,0.10869296642186617,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4236,False,True,0.3963912132861363,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4239,True,True,0.8983973249657891,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+4247,True,True,0.7340407300137827,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4248,False,True,0.25534264284195696,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4260,True,True,0.30706294127933165,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4270,False,False,0.11279002550477216,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4273,False,False,0.028663590912131855,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+4277,True,True,0.8739525295643156,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+4279,False,False,0.22440804505308037,Male,Under 25,Domestic,Financial risk indicated,Scholarship holder,Male | Financial risk indicated
+4287,False,False,0.09159212177555283,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4292,False,True,0.48067207614085455,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4307,True,True,0.9745565957315622,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+4312,False,True,0.6743836493690605,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4313,True,True,0.7580657491866893,Male,25 or older,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+4317,False,False,0.14941703071839374,Male,Under 25,Domestic,Financial risk indicated,No scholarship,Male | Financial risk indicated
+4318,False,False,0.06221347951225945,Male,Under 25,Domestic,No immediate financial risk,Scholarship holder,Male | No immediate financial risk
+4321,False,True,0.36660219259079485,Male,Under 25,International,Financial risk indicated,No scholarship,Male | Financial risk indicated
+4323,True,True,0.7863365317348582,Female,Under 25,International,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4324,True,True,0.6386987177187109,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4326,False,False,0.16318517360480556,Female,25 or older,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4335,False,False,0.046021086611606886,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4348,True,True,0.46558558027831887,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4353,True,False,0.1533968755584363,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4359,True,True,0.6383236492351599,Female,Under 25,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4372,False,False,0.04478727944154201,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4374,False,True,0.2969023053524818,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4385,True,True,0.9007247143797091,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4387,True,False,0.20833823746937435,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4393,False,False,0.16902131256537384,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk
+4397,False,False,0.06368010206874293,Female,Under 25,Domestic,No immediate financial risk,Scholarship holder,Female | No immediate financial risk
+4403,False,False,0.22462337326668633,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4408,False,False,0.06255217482390829,Male,Under 25,Domestic,No immediate financial risk,No scholarship,Male | No immediate financial risk
+4416,True,True,0.9009139040788153,Female,25 or older,Domestic,Financial risk indicated,No scholarship,Female | Financial risk indicated
+4417,False,False,0.14983232180852407,Female,Under 25,Domestic,No immediate financial risk,No scholarship,Female | No immediate financial risk

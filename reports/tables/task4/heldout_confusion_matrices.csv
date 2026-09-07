@@ -1,0 +1,19 @@
+actual,predicted,count,prediction_rule
+Dropout,Dropout,210,Default argmax
+Enrolled,Dropout,45,Default argmax
+Graduate,Dropout,22,Default argmax
+Dropout,Enrolled,36,Default argmax
+Enrolled,Enrolled,63,Default argmax
+Graduate,Enrolled,43,Default argmax
+Dropout,Graduate,38,Default argmax
+Enrolled,Graduate,51,Default argmax
+Graduate,Graduate,377,Default argmax
+Dropout,Dropout,238,Tuned dropout threshold
+Enrolled,Dropout,92,Tuned dropout threshold
+Graduate,Dropout,50,Tuned dropout threshold
+Dropout,Enrolled,14,Tuned dropout threshold
+Enrolled,Enrolled,24,Tuned dropout threshold
+Graduate,Enrolled,31,Tuned dropout threshold
+Dropout,Graduate,32,Tuned dropout threshold
+Enrolled,Graduate,43,Tuned dropout threshold
+Graduate,Graduate,361,Tuned dropout threshold

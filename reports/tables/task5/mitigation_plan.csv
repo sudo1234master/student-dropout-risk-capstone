@@ -1,0 +1,7 @@
+priority,action,risk_addressed,validation_before_use
+1,"Use alerts only for supportive outreach with human review, documented reasons, and an appeal path.","False positives, stigma, and automated adverse decisions","Confirm no alert is used for exclusion, discipline, grading, or financial penalties."
+2,"Collect better representation data under consent and governance, including self-described gender and race/ethnicity where lawful.",Binary gender field and missing race prevent a complete audit,"Publish purpose, retention, access, minimum cell size, and deletion rules before collection."
+3,Evaluate reweighting or group-aware resampling inside nested cross-validation.,Unequal false-negative and false-positive rates,"Compare recall, precision, calibration, and equalized-odds gaps on a new validation cohort."
+4,Calibrate dropout probabilities using training-only cross-validation.,Probability miscalibration across risk ranges and groups,Check Brier score and reliability curves overall and by sufficiently large group.
+5,Consider group-specific thresholds only after legal and ethical review.,Recall gaps that a single threshold cannot resolve,"Tune on validation data, document the fairness objective, and test for new precision or burden disparities."
+6,"Monitor performance, alert rates, TPR, FPR, calibration, and data drift by cohort and group.",Temporal drift and degradation after deployment,"Set minimum sample sizes, confidence intervals, escalation thresholds, and rollback ownership."

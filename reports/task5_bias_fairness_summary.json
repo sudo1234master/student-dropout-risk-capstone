@@ -1,0 +1,156 @@
+{
+  "task": "Task 5: Critical Thinking, Ethical AI, and Bias Auditing",
+  "model": {
+    "name": "Random Forest",
+    "dropout_alert_threshold": 0.23,
+    "heldout_records_audited": 885,
+    "sensitive_fields_in_model_inputs": [],
+    "sensitive_fields_used_for_audit_only": [
+      "Gender",
+      "Age at enrollment",
+      "International"
+    ],
+    "socioeconomic_proxies_audited": [
+      "Debtor",
+      "Tuition fees up to date",
+      "Scholarship holder"
+    ]
+  },
+  "explainability": {
+    "method": "Tree SHAP on the locked Random Forest and held-out test records",
+    "explained_class": "Dropout",
+    "records_explained": 885,
+    "transformed_features": 125,
+    "expected_dropout_value": 0.3333333333333346,
+    "local_case_record_ids": {
+      "True positive - high risk": 1614,
+      "False positive - high risk": 943,
+      "False negative - missed dropout": 134
+    },
+    "interpretation": "Positive SHAP values raise the model's dropout probability relative to its expected value; negative values lower it. SHAP explains the model, not causal effects.",
+    "top_10_grouped_features": [
+      {
+        "original_feature": "first_sem_progress_index",
+        "mean_absolute_shap": 0.060093710298649045,
+        "encoded_components": 1,
+        "rank": 1
+      },
+      {
+        "original_feature": "first_sem_approval_rate",
+        "mean_absolute_shap": 0.05812982809917448,
+        "encoded_components": 1,
+        "rank": 2
+      },
+      {
+        "original_feature": "Tuition fees up to date",
+        "mean_absolute_shap": 0.05264868520328603,
+        "encoded_components": 2,
+        "rank": 3
+      },
+      {
+        "original_feature": "Curricular units 1st sem (approved)",
+        "mean_absolute_shap": 0.04546005146767073,
+        "encoded_components": 1,
+        "rank": 4
+      },
+      {
+        "original_feature": "financial_risk_flag",
+        "mean_absolute_shap": 0.03487804924034606,
+        "encoded_components": 2,
+        "rank": 5
+      },
+      {
+        "original_feature": "Curricular units 1st sem (grade)",
+        "mean_absolute_shap": 0.03255142973322112,
+        "encoded_components": 1,
+        "rank": 6
+      },
+      {
+        "original_feature": "Application mode",
+        "mean_absolute_shap": 0.02433459226655482,
+        "encoded_components": 15,
+        "rank": 7
+      },
+      {
+        "original_feature": "Course",
+        "mean_absolute_shap": 0.02195418080723575,
+        "encoded_components": 17,
+        "rank": 8
+      },
+      {
+        "original_feature": "Scholarship holder",
+        "mean_absolute_shap": 0.020853345125146208,
+        "encoded_components": 2,
+        "rank": 9
+      },
+      {
+        "original_feature": "Mother's occupation",
+        "mean_absolute_shap": 0.011365547204539648,
+        "encoded_components": 14,
+        "rank": 10
+      }
+    ],
+    "pdp_ice_features": [
+      "first_sem_progress_index",
+      "first_sem_approval_rate"
+    ]
+  },
+  "fairness_definition": {
+    "event": "Dropout alert is the adverse selection event",
+    "reference_groups": {
+      "Gender": "Female",
+      "Age group": "Under 25",
+      "International status": "Domestic",
+      "Financial-risk proxy": "No immediate financial risk",
+      "Scholarship status": "No scholarship",
+      "Gender x financial risk": "Female | No immediate financial risk"
+    },
+    "demographic_parity": "Difference and ratio of adverse alert rates",
+    "disparate_impact": "Group adverse alert rate divided by reference adverse alert rate; the symmetric four-fifths ratio is also reported",
+    "equal_opportunity": "Difference in dropout true-positive rate",
+    "equalized_odds": "True-positive and false-positive rate gaps",
+    "screening_thresholds": {
+      "four_fifths_parity_ratio_below": 0.8,
+      "equalized_odds_max_gap_above": 0.1
+    }
+  },
+  "fairness_results": {
+    "four_fifths_review_flags": 7,
+    "equalized_odds_review_flags": 6,
+    "largest_equalized_odds_gap": {
+      "audit_dimension": "Gender x financial risk",
+      "group": "Female | Financial risk indicated",
+      "reference_group": "Female | No immediate financial risk",
+      "gap": 0.46844560296336946
+    },
+    "small_sample_groups": [
+      {
+        "audit_dimension": "International status",
+        "group": "International",
+        "n": 24,
+        "actual_dropout_n": 9
+      },
+      {
+        "audit_dimension": "Scholarship status",
+        "group": "Scholarship holder",
+        "n": 205,
+        "actual_dropout_n": 19
+      }
+    ],
+    "race_audit_status": "Not possible: race is absent. Nationality and international status are not treated as race.",
+    "interpretation": "Flags are screening signals, not legal findings or proof of discrimination. Base-rate differences and intervention harms/benefits require contextual review."
+  },
+  "risk_controls": {
+    "imbalance": "Stratification, class weighting, macro metrics, dropout-specific metrics, and capacity-based capture metrics were used.",
+    "leakage": "Second-semester variables were excluded; all learned Task 3 and Task 4 steps used training data before held-out evaluation.",
+    "overfitting": "Cross-validated or OOF metrics were compared with held-out results; external and temporal validation remain required."
+  },
+  "recommendation": "Do not use the model for automated adverse decisions. Consider only a non-punitive support pilot after mitigation testing, human review, appeal, calibration, and prospective monitoring.",
+  "software": {
+    "python": "3.13.9",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "scikit_learn": "1.7.2",
+    "shap": "0.52.0"
+  }
+}

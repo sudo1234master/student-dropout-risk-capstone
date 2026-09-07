@@ -1,0 +1,126 @@
+feature,model_based_importance,rank
+numeric__first_sem_approval_rate,0.1108773144668951,1
+numeric__first_sem_progress_index,0.10794589028989679,2
+numeric__Curricular units 1st sem (grade),0.05481977471860526,3
+numeric__Curricular units 1st sem (approved),0.04112411709605956,4
+categorical__Tuition fees up to date_1,0.03852774526738361,5
+categorical__Tuition fees up to date_0,0.03564562792351873,6
+numeric__first_sem_evaluation_intensity,0.0353721262803004,7
+categorical__financial_risk_flag_1,0.02527234436628248,8
+categorical__Scholarship holder_1,0.02459949282728947,9
+categorical__Scholarship holder_0,0.022482215769007313,10
+categorical__financial_risk_flag_0,0.019200966113575208,11
+numeric__Curricular units 1st sem (evaluations),0.018644591281237924,12
+numeric__GDP,0.015981268347630636,13
+numeric__Unemployment rate,0.015166505849361496,14
+categorical__Application mode_39,0.013700429961676844,15
+categorical__Application mode_1,0.013327736138886855,16
+numeric__Inflation rate,0.013197362266875451,17
+numeric__Curricular units 1st sem (enrolled),0.011879155327176514,18
+categorical__Course_9500,0.011731885324189029,19
+categorical__Course_9119,0.011099822775686441,20
+numeric__Admission grade,0.01084771802173142,21
+categorical__Course_9238,0.009628467855718121,22
+numeric__Previous qualification (grade),0.009526498522385669,23
+categorical__Mother's occupation_9,0.009135244015923659,24
+categorical__Mother's qualification_19,0.008823595313420269,25
+categorical__Mother's qualification_1,0.008788930911643069,26
+categorical__Father's qualification_19,0.008491128916857797,27
+categorical__Mother's qualification_37,0.008419984132844607,28
+categorical__Father's qualification_37,0.007875025687204888,29
+numeric__academic_preparation_gap,0.007756174669790634,30
+numeric__Application order,0.007603094570875476,31
+categorical__Course_9147,0.00755032373455536,32
+categorical__Application mode_17,0.007393129734484498,33
+categorical__Father's occupation_9,0.0072810988840702855,34
+categorical__Father's qualification_1,0.00716838320354167,35
+categorical__Application mode_43,0.00706471852655348,36
+categorical__Mother's occupation_0,0.007011375256744676,37
+categorical__Previous qualification_1,0.006858668225643679,38
+categorical__Debtor_1,0.0068508492512609105,39
+categorical__Mother's occupation_4,0.006825330800996842,40
+categorical__Debtor_0,0.006748760446300447,41
+categorical__Father's qualification_38,0.006374787906528697,42
+categorical__Course_9853,0.006066921568970939,43
+categorical__Father's occupation_4,0.005962713319536247,44
+categorical__Father's occupation_7,0.005909623977237308,45
+categorical__Course_9085,0.005784023544150499,46
+categorical__Mother's occupation_5,0.005166539676709728,47
+categorical__Course_171,0.005028136802386278,48
+categorical__Course_9254,0.004910193310047365,49
+categorical__Father's occupation_5,0.004853319552273033,50
+categorical__first_sem_no_enrollment_flag_0,0.004791268100820669,51
+categorical__first_sem_no_enrollment_flag_1,0.004765591515876644,52
+categorical__Mother's qualification_3,0.0047609268015345605,53
+categorical__Mother's qualification_38,0.004728866770936778,54
+categorical__Mother's qualification_34,0.004511276724377942,55
+categorical__Father's occupation_3,0.004288233059690013,56
+categorical__Course_9773,0.004094018045158175,57
+numeric__Curricular units 1st sem (credited),0.004036719756304231,58
+categorical__Mother's occupation_3,0.004008441071429217,59
+categorical__Mother's occupation_2,0.0038233305025404964,60
+categorical__Daytime/evening attendance_1,0.0037582808734854495,61
+categorical__Mother's occupation_infrequent_sklearn,0.003755615614787587,62
+categorical__Course_9991,0.0036726498894645017,63
+categorical__Daytime/evening attendance_0,0.0036073056354237786,64
+categorical__Father's occupation_infrequent_sklearn,0.003458453269940834,65
+categorical__Father's occupation_8,0.0031548938814603585,66
+categorical__Father's qualification_34,0.003154389981386033,67
+categorical__Father's occupation_0,0.0031484032174179575,68
+categorical__Course_9670,0.0031288649612633323,69
+categorical__Application mode_44,0.003018534189127641,70
+numeric__first_sem_no_evaluation_rate,0.003013373607178882,71
+categorical__Course_9130,0.0029710214494585952,72
+categorical__Father's qualification_3,0.0029108520840308663,73
+categorical__Father's occupation_10,0.0028979992731796842,74
+categorical__Application mode_7,0.002872694714775612,75
+categorical__Previous qualification_19,0.002797843593979709,76
+numeric__Curricular units 1st sem (without evaluations),0.0027471146193491043,77
+categorical__Course_9070,0.00269739649656865,78
+categorical__Previous qualification_3,0.0025310201706059804,79
+categorical__Father's occupation_2,0.00243130487125282,80
+categorical__Mother's occupation_7,0.002430456084214485,81
+categorical__Previous qualification_39,0.002361203688789165,82
+categorical__Father's occupation_6,0.002358053532249082,83
+categorical__Course_8014,0.0023085755733975397,84
+categorical__Father's qualification_2,0.0021121097819436743,85
+categorical__Course_9003,0.0020146452232395885,86
+categorical__Mother's occupation_90,0.0018133976495539976,87
+categorical__Father's occupation_1,0.0016810955074593415,88
+categorical__Father's occupation_90,0.001409239283473328,89
+categorical__Application mode_18,0.0012383796578603438,90
+categorical__Application mode_42,0.0011892058355643575,91
+categorical__Application mode_53,0.0011798422545414955,92
+categorical__Mother's occupation_6,0.0011658980663812849,93
+categorical__Father's qualification_infrequent_sklearn,0.001101874218035322,94
+categorical__Application mode_15,0.0010884984836495193,95
+categorical__Mother's qualification_infrequent_sklearn,0.0010734001553540445,96
+categorical__Course_9556,0.0009322223086296609,97
+categorical__Mother's occupation_1,0.0008707092342483892,98
+categorical__Mother's qualification_2,0.0007712570243301925,99
+categorical__Mother's occupation_191,0.0007451881120801169,100
+categorical__Father's qualification_12,0.0007415048593566155,101
+categorical__Previous qualification_42,0.0007208074881356489,102
+categorical__Application mode_51,0.0006358437291189609,103
+categorical__Father's qualification_39,0.00055292214774647,104
+categorical__Father's qualification_4,0.00042661025200018375,105
+categorical__Application mode_5,0.00042578912126060343,106
+categorical__Mother's qualification_12,0.00040608143499073276,107
+categorical__Previous qualification_40,0.000376455765596973,108
+categorical__Mother's occupation_8,0.0002912538048919817,109
+categorical__Mother's qualification_5,0.00022374163542890503,110
+categorical__Mother's qualification_4,0.0002217668058340988,111
+categorical__Application mode_10,0.00020953268415753673,112
+categorical__Previous qualification_12,0.00018720153395743343,113
+categorical__Previous qualification_infrequent_sklearn,0.00018451362698157186,114
+categorical__Father's occupation_193,0.00016934403385497884,115
+categorical__Application mode_16,0.000168539341624945,116
+categorical__Father's qualification_5,0.00010732263979589538,117
+categorical__Previous qualification_2,9.62913154261568e-05,118
+categorical__Father's occupation_Unknown/not stated,7.747981620840065e-05,119
+categorical__Mother's occupation_Unknown/not stated,4.907930597182964e-05,120
+categorical__Previous qualification_6,2.3704493608756366e-05,121
+categorical__Application mode_infrequent_sklearn,1.59632549796416e-05,122
+categorical__Course_33,5.181759348038693e-06,123
+categorical__first_choice_flag_infrequent_sklearn,0.0,124
+categorical__first_choice_flag_0,0.0,125

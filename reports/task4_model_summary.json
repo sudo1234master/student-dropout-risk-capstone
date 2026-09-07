@@ -1,0 +1,106 @@
+{
+  "task": "Task 4: Model Implementation",
+  "data": {
+    "training_rows": 3539,
+    "heldout_test_rows": 885,
+    "model_input_columns": 31,
+    "heldout_used_once_after_selection": true
+  },
+  "evaluation_design": {
+    "candidate_models": [
+      "Random Forest",
+      "Histogram Gradient Boosting",
+      "Logistic Regression",
+      "Decision Tree",
+      "Dummy Baseline"
+    ],
+    "cross_validation_folds": 5,
+    "selection_metric": "Dropout F2, subject to cross-validated dropout precision of at least 0.50 when feasible",
+    "threshold_tuning": "Out-of-fold training probabilities only",
+    "uncertainty": "1,000 bootstrap resamples on held-out test metrics"
+  },
+  "best_model": {
+    "name": "Random Forest",
+    "parameters": {
+      "model__max_features": "sqrt",
+      "model__min_samples_leaf": 2,
+      "selector__k": "all"
+    },
+    "dropout_alert_threshold": 0.23,
+    "threshold_reason": "Maximised out-of-fold dropout F2 among thresholds meeting the Task 1 recall and precision targets.",
+    "oof_threshold_metrics": {
+      "dropout_precision": 0.645778364116095,
+      "dropout_recall": 0.86103781882146,
+      "dropout_f1": 0.73803241613268,
+      "dropout_f2": 0.8072229551451188,
+      "macro_f1": 0.6104635871116906,
+      "alert_share": 0.42836959593105395
+    }
+  },
+  "heldout_test": {
+    "thresholded_metrics": {
+      "accuracy": 0.703954802259887,
+      "balanced_accuracy": 0.6019045488961544,
+      "macro_precision": 0.6007078426021176,
+      "macro_recall": 0.6019045488961544,
+      "macro_f1": 0.5832390826945234,
+      "weighted_f1": 0.6785661198232239,
+      "dropout_precision": 0.6263157894736842,
+      "dropout_recall": 0.8380281690140845,
+      "dropout_f1": 0.7168674698795181,
+      "dropout_f2": 0.7849604221635884,
+      "multiclass_log_loss": 0.6477446683761307,
+      "roc_auc_ovr_macro": 0.859884203999945,
+      "roc_auc_ovr_weighted": 0.8808370218656946
+    },
+    "top_30pct_capacity": {
+      "capacity_share": 0.3,
+      "students_flagged": 266,
+      "dropouts_captured": 207,
+      "total_dropouts": 284,
+      "dropout_capture_rate": 0.7288732394366197,
+      "precision_at_capacity": 0.7781954887218046,
+      "lift_at_capacity": 2.4250105898549195,
+      "baseline_dropout_prevalence": 0.32090395480225986
+    },
+    "meets_dropout_recall_target": true,
+    "meets_dropout_precision_floor": true,
+    "meets_top_30pct_capture_target": true
+  },
+  "bootstrap_intervals": [
+    {
+      "metric": "dropout_precision",
+      "bootstrap_mean": 0.6248235929859024,
+      "ci_95_lower": 0.5777611940298507,
+      "ci_95_upper": 0.6727308994197292,
+      "iterations": 1000
+    },
+    {
+      "metric": "dropout_recall",
+      "bootstrap_mean": 0.8369279234148022,
+      "ci_95_lower": 0.7923730765142837,
+      "ci_95_upper": 0.8807964950869055,
+      "iterations": 1000
+    },
+    {
+      "metric": "dropout_f2",
+      "bootstrap_mean": 0.7834548843497696,
+      "ci_95_lower": 0.7459123810940803,
+      "ci_95_upper": 0.8202430657528716,
+      "iterations": 1000
+    },
+    {
+      "metric": "macro_f1",
+      "bootstrap_mean": 0.5826975120539114,
+      "ci_95_lower": 0.5517204268300885,
+      "ci_95_upper": 0.6153649181338552,
+      "iterations": 1000
+    }
+  ],
+  "interpretation": [
+    "The tuned threshold converts dropout probability into an operational alert while preserving the model's three-class probabilities.",
+    "Top-30% capacity metrics evaluate ranking quality independently from the alert threshold.",
+    "Held-out results estimate performance for similar students from the same institutional context, not guaranteed performance at other institutions.",
+    "Fairness and subgroup error analysis are deferred to Task 5 and must precede deployment."
+  ]
+}

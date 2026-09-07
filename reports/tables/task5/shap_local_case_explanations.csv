@@ -1,0 +1,37 @@
+case_type,record_id,actual_outcome,thresholded_prediction,dropout_probability,rank_within_case,encoded_feature,original_feature,transformed_feature_value,dropout_shap_value,effect_direction
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,1,numeric__first_sem_approval_rate,first_sem_approval_rate,-1.6666666666666667,0.07589071816598243,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,2,numeric__first_sem_progress_index,first_sem_progress_index,-1.5686274513099354,0.07542813813496194,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,3,categorical__Tuition fees up to date_1,Tuition fees up to date,0.0,0.0734326032489417,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,4,numeric__Curricular units 1st sem (approved),Curricular units 1st sem (approved),-1.6666666666666667,0.06027054804199214,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,5,categorical__Tuition fees up to date_0,Tuition fees up to date,1.0,0.05777318434056484,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,6,numeric__Curricular units 1st sem (grade),Curricular units 1st sem (grade),-5.1354731137974134,0.05364458586550975,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,7,categorical__financial_risk_flag_0,financial_risk_flag,0.0,0.03335061621953957,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,8,categorical__Mother's occupation_0,Mother's occupation,1.0,0.03281216549734086,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,9,categorical__financial_risk_flag_1,financial_risk_flag,1.0,0.03143841370655719,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,10,categorical__Mother's qualification_34,Mother's qualification,1.0,0.019113804648307104,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,11,categorical__Application mode_39,Application mode,1.0,0.01594215744365286,Raises modeled dropout risk
+True positive - high risk,1614,Dropout,Dropout,0.9912421704769886,12,categorical__Father's qualification_34,Father's qualification,1.0,0.015426811437061337,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,1,numeric__first_sem_progress_index,first_sem_progress_index,-1.5686274513099354,0.11482859329235204,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,2,numeric__first_sem_approval_rate,first_sem_approval_rate,-1.6666666666666667,0.11302160208895254,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,3,numeric__Curricular units 1st sem (grade),Curricular units 1st sem (grade),-5.1354731137974134,0.11148408037883002,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,4,numeric__Curricular units 1st sem (approved),Curricular units 1st sem (approved),-1.6666666666666667,0.09234086540717112,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,5,categorical__Application mode_39,Application mode,1.0,0.039307880104425375,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,6,categorical__Previous qualification_1,Previous qualification,0.0,0.017164201127157185,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,7,categorical__Course_9238,Course,1.0,-0.01699814219532676,Lowers modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,8,categorical__Application mode_1,Application mode,0.0,0.01687000002946927,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,9,categorical__Tuition fees up to date_1,Tuition fees up to date,1.0,-0.015922184434628086,Lowers modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,10,categorical__Previous qualification_19,Previous qualification,1.0,0.01567286676590045,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,11,numeric__Previous qualification (grade),Previous qualification (grade),0.0,0.015204431373178931,Raises modeled dropout risk
+False positive - high risk,943,Enrolled,Dropout,0.8484726038125819,12,categorical__Tuition fees up to date_0,Tuition fees up to date,0.0,-0.01404661894570865,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,1,numeric__first_sem_progress_index,first_sem_progress_index,-0.09803921570687095,-0.041305652565612666,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,2,numeric__Curricular units 1st sem (grade),Curricular units 1st sem (grade),0.7002917882451017,-0.039315255361801915,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,3,numeric__first_sem_approval_rate,first_sem_approval_rate,-0.23809523809523814,0.038956021816477816,Raises modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,4,numeric__Curricular units 1st sem (approved),Curricular units 1st sem (approved),0.0,-0.03645888659826559,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,5,numeric__Application order,Application order,5.0,0.02034632634516506,Raises modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,6,categorical__Tuition fees up to date_1,Tuition fees up to date,1.0,-0.017938956482398502,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,7,categorical__Tuition fees up to date_0,Tuition fees up to date,0.0,-0.01613551578944757,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,8,categorical__Course_9500,Course,1.0,-0.01539299886334577,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,9,categorical__financial_risk_flag_1,financial_risk_flag,0.0,-0.011765512903917596,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,10,categorical__financial_risk_flag_0,financial_risk_flag,1.0,-0.010839635241481939,Lowers modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,11,categorical__Scholarship holder_1,Scholarship holder,0.0,0.009196393535021996,Raises modeled dropout risk
+False negative - missed dropout,134,Dropout,Enrolled,0.2275407944675861,12,categorical__Scholarship holder_0,Scholarship holder,1.0,0.00828362959131703,Raises modeled dropout risk

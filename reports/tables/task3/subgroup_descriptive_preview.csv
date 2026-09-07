@@ -1,0 +1,9 @@
+feature,group,students,dropouts,dropout_rate
+Gender,Female,2298,581,0.25282854656222803
+Gender,Male,1241,556,0.44802578565672846
+Tuition fees up to date,Not up to date,419,364,0.8687350835322196
+Tuition fees up to date,Up to date,3120,773,0.24775641025641026
+Debtor,No,3150,888,0.2819047619047619
+Debtor,Yes,389,249,0.6401028277634961
+Scholarship holder,No,2645,1022,0.38638941398865784
+Scholarship holder,Yes,894,115,0.12863534675615212

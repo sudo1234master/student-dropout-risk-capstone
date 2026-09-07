@@ -1,0 +1,4 @@
+outcome,count,share,random_recall_at_30pct
+Dropout,1137,0.3212771969482905,0.3
+Enrolled,635,0.17942921729302064,0.3
+Graduate,1767,0.4992935857586889,0.3

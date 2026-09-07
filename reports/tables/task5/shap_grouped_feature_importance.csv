@@ -1,0 +1,32 @@
+original_feature,mean_absolute_shap,encoded_components,rank
+first_sem_progress_index,0.060093710298649045,1,1
+first_sem_approval_rate,0.05812982809917448,1,2
+Tuition fees up to date,0.05264868520328603,2,3
+Curricular units 1st sem (approved),0.04546005146767073,1,4
+financial_risk_flag,0.03487804924034606,2,5
+Curricular units 1st sem (grade),0.03255142973322112,1,6
+Application mode,0.02433459226655482,15,7
+Course,0.02195418080723575,17,8
+Scholarship holder,0.020853345125146208,2,9
+Mother's occupation,0.011365547204539648,14,10
+Father's occupation,0.010050156978618427,15,11
+Mother's qualification,0.008524495888730456,11,12
+Curricular units 1st sem (evaluations),0.008093951648512336,1,13
+Debtor,0.00777929291704711,2,14
+Father's qualification,0.007464010168681019,12,15
+Previous qualification,0.0072642676212793045,10,16
+first_sem_evaluation_intensity,0.0070356496872556835,1,17
+Unemployment rate,0.0067547393060106205,1,18
+Curricular units 1st sem (enrolled),0.005997639011096907,1,19
+first_sem_no_enrollment_flag,0.005980900052704907,2,20
+Previous qualification (grade),0.00533907382538732,1,21
+GDP,0.0051753728946531624,1,22
+academic_preparation_gap,0.004594510998238567,1,23
+Admission grade,0.004367118612608845,1,24
+Inflation rate,0.002531348631691835,1,25
+Application order,0.002322681402984277,1,26
+Curricular units 1st sem (credited),0.0021986986014712953,1,27
+Daytime/evening attendance,0.001152157855619825,2,28
+Curricular units 1st sem (without evaluations),0.0007494315552872233,1,29
+first_sem_no_evaluation_rate,0.0006939268540959118,1,30
+first_choice_flag,0.0,2,31
